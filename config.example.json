@@ -1,0 +1,16 @@
+{
+  "listen_host": "0.0.0.0",
+  "listen_port": 3333,
+  "miner_timeout": 300,
+  "upstream_reconnect": 5,
+  "max_message_size": 65536,
+  "upstream": {
+    "host": "zcents-node.example.com",
+    "port": 8232,
+    "ssl": false,
+    "username": "zcents.worker",
+    "password": "password",
+    "worker_prefix": "zcents",
+    "keepalive_interval": 0
+  }
+}

@@ -1,0 +1,15 @@
+[project]
+name = "stratum-proxy-for-zcents"
+version = "0.1.0"
+description = "Stratum proxy for forwarding ASIC miners to a Zcents node"
+authors = [{name = "Zcents", email = "dev@zcents.example"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+zcents-stratum-proxy = "stratum_proxy.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
